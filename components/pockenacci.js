@@ -101,6 +101,7 @@ export default function Pockenacci () {
             value={key}
             name='key'
             placeholder='Type your key here...'
+            autoComplete='off'
             onChange={e => onFormChange('key', e.target.value)}
           />
           {key.length > 0 && key.length < 6 && (
