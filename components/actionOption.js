@@ -9,7 +9,7 @@ const CustomRadio = React.forwardRef((props, ref) => {
   return (
     <Button
       ref={ref}
-      variantColor={isChecked ? 'teal' : 'gray'}
+      variantColor={isChecked ? 'blue' : 'gray'}
       aria-checked={isChecked}
       role='radio'
       isDisabled={isDisabled}
@@ -21,8 +21,9 @@ const CustomRadio = React.forwardRef((props, ref) => {
 export default function ActionOption (props) {
   return (
     <RadioButtonGroup
-      defaultValue='encrypt'
+      value={props.value}
       onChange={props.onChange}
+      defaultValue='encrypt'
       isInline
     >
       <CustomRadio value='encrypt'>Encrypt</CustomRadio>
