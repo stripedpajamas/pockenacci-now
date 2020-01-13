@@ -20,6 +20,13 @@ export default function Pockenacci () {
   const [key, setKey] = useState('')
   const [formError, setFormError] = useState('')
 
+  function canSubmit () {
+    if (action === 'encrypt') {
+      return input && key.length >= 6
+    }
+    return input && mac && key.length >= 6
+  }
+
   function onFormChange (key, val) {
     setFormError('')
     switch (key) {
@@ -116,8 +123,8 @@ export default function Pockenacci () {
             value={action}
             onChange={a => onFormChange('action', a)}
           />
-          <Button ml={3} variantColor='teal' type='submit'>
-              Submit
+          <Button ml={3} variantColor='teal' type='submit' isDisabled={!canSubmit()}>
+            Submit
           </Button>
         </Flex>
       </form>
