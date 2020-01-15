@@ -1,5 +1,5 @@
 {
-  "name": "pockenacci",
+  "name": "pockenacci-now",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,7 +13,7 @@
     "@emotion/styled": "^10.0.27",
     "emotion-theming": "^10.0.27",
     "next": "9.1.7",
-    "pockenacci": "^1.0.0",
+    "pockenacci": "^1.0.1",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-hook-form": "^4.4.8"

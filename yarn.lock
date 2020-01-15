@@ -4921,10 +4921,10 @@ pnp-webpack-plugin@1.5.0:
   dependencies:
     ts-pnp "^1.1.2"
 
-pockenacci@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/pockenacci/-/pockenacci-1.0.0.tgz#ac9aa6ed054343ee9bf5e70f3cf8d477f1449c4b"
-  integrity sha512-dY7O+VPvdltuzyXipOhe3/filSRSdTB89krtxKNIImEGHQoFVy0KWxhasHLOCKcTNLwXKR61V0BqYQzD1Dc75g==
+pockenacci@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/pockenacci/-/pockenacci-1.0.1.tgz#78846e03b8693ed9483f864d7df0f100ea4f09c3"
+  integrity sha512-JBMY5fQtUK7Fib88cZBHiTeVWieSbMU8VaY9oKEkXPeiQyCtKQmKq49AhgW2IyZs0cdOapIsBVnNjrH0ZtMVpg==
 
 popper.js@^1.15.0:
   version "1.16.0"
